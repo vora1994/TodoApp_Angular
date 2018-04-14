@@ -1,0 +1,35 @@
+.todo-input-wrapper {
+	margin-bottom: 20px;
+}
+// button
+.btn {
+	outline: none;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: none;
+	border-width: 2px;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 3px;
+	border-style: solid;
+	padding: 8px;
+}
+.btn-primary {
+	color: rgba(73, 204, 249, 1.0);
+	border-color: rgba(73, 204, 249, 1.0);
+	background-color: transparent;
+}
+// user input 
+input {
+	width: 80%;
+	border: none;
+	border-top: 2px solid rgba(73, 204, 249, 1.0);
+	border-bottom: 2px solid rgba(73, 204, 249, 1.0);
+	margin-right: 10px;
+	padding: 5px;
+	line-height: 17px;
+	&:focus {
+		outline: none;
+		border: none;
+		border-top: 2px solid rgba(73, 204, 249, 1.0);
+		border-bottom: 2px solid rgba(73, 204, 249, 1.0);
+	}
+}

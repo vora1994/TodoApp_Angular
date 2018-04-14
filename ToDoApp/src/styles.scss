@@ -1,0 +1,48 @@
+
+//colors
+$white: white;
+$color_log_cabin_approx: #222;
+
+//fonts
+$font_0: sans-serif;
+
+* {
+	font-family: $font_0;
+}
+#nav {
+	position: absolute;
+	right: 0;
+	top: -15px;
+	ul li {
+		float: left;
+		list-style: none;
+		a {
+			display: block;
+			color: $white;
+			text-decoration: none;
+			padding-top: 15px;
+		}
+	}
+}
+.container {
+	position: relative;
+	margin: 0 auto;
+	width: 94%;
+	max-width: 100%;
+}
+#header {
+	z-index: 2;
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	background: $color_log_cabin_approx;
+	color: $white;
+	top: 0;
+	h1 {
+		top: 0;
+		margin: 0;
+		text-transform: uppercase;
+		font-size: 1.2em;
+	}
+}

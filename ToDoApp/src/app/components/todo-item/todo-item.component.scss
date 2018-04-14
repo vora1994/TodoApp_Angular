@@ -1,0 +1,25 @@
+//colors
+$gallery: #efefef;
+$color_monza_40_approx: rgba(203, 20, 32, 0.4);
+
+.todoWrapper {
+	border-bottom: 1px solid $gallery;
+	text-align: left;
+	margin-bottom: 10px;
+}
+// remove icon
+.removeTodo {
+	margin-right: 20px;
+	margin-bottom: 10px;
+	outline: none;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: none;
+	border-width: 2px;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 3px;
+	border-style: solid;
+	padding: 8px;
+	color: $color_monza_40_approx;
+	border-color: $color_monza_40_approx;
+	background-color: transparent;
+}
